@@ -157,11 +157,11 @@ def compress_index(bitmap_index, output_path, compression_method, word_size):
 	print("Total literals: ", str(num_literal))
 
 
-# def main():
+def main():
 
-# 	create_index("animals_small.txt","/Users/anhtran/Desktop/CS351/output/", False)
+	create_index("animals_small.txt","/Users/anhtran/Desktop/CS351/output/", True)
 
-# 	compress_index("animals.txt_sorted", "/Users/anhtran/Desktop/CS351/output/", "WAH", 16 )
+	compress_index("animals.txt_sorted", "/Users/anhtran/Desktop/CS351/output/", "WAH", 16 )
 
-# if __name__ == "__main__":
-# 	main()
+if __name__ == "__main__":
+	main()
